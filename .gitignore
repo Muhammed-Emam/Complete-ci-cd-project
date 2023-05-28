@@ -1,0 +1,67 @@
+# ignore local terraform init
+
+**/.terraform/*
+**/*.pem
+
+# Exclude specific file
+terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/5.0.1/windows_amd64/terraform-provider-aws_v5.0.1_x5.exe
+
+# Exclude directory
+terraform/.terraform/providers/registry.terraform.io/
+
+# Terraform files
+.terraform/
+
+# Ignore any .tfstate files
+./*.tfstate
+./*.tfstate.*
+
+# Ignore override files as they are usually used to override resources locally and should not be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraform.lock.hcl files (Terraform 0.15+)
+./.terraform.lock.hcl
+
+# Ignore .terraform.lock files (Terraform 0.14 and earlier)
+./.terraform.lock
+
+
+
+# Ignore Terraform state files
+./terraform/*.tfstate
+./terraform/*.tfstate.*
+
+# Ignore any generated files
+./terraform/*.tfplan
+./terraform/*.tfout
+
+# Ignore Terraform variables file
+./terraform/*.tfvars
+
+# Ignore the .terraform directory
+/terraform/.terraform
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore any generated files
+*.tfplan
+*.tfout
+
+# Ignore Terraform variables file
+*.tfvars
+
+# Ignore the .terraform directory
+/terraform/.terraform
+

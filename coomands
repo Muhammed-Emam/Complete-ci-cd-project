@@ -1,0 +1,19 @@
+aws eks update-kubeconfig --region us-east-1 --name CD-CD-Project-cluster
+kubectl config get-contexts
+
+
+#Both private and public endpoint access cannot be false
+
+
+To access the EKS cluster from your local PC, the endpoint_public_access setting is the one that affects accessibility.
+
+If endpoint_public_access is set to true, the EKS cluster's API server endpoint will be publicly accessible over the internet, allowing you to connect to it from your local PC.
+..
+If endpoint_public_access is set to false, the EKS cluster's API server endpoint will only be accessible within the private network (VPC) where the cluster is deployed. In this case, you would need to establish a VPN or use a bastion host/jump server within the VPC to access the cluster from your local PC.
+
+Make sure to configure the endpoint_public_access setting according to your desired accessibility requirements and security considerations.
+
+
+
+
+...
