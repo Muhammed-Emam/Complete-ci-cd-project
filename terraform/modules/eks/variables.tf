@@ -21,3 +21,11 @@ variable "scaling_config" {
     min_size = number
   })
 }
+
+variable "vpc_id" {
+  type = string
+}
+
+variable "bastion_sg" {
+  type = string
+}

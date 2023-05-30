@@ -24,6 +24,20 @@ variable "private1_subnet" {
       az = string
     })
 }
+variable "public2_subnet" {
+    type = object({
+      cidr = string
+      az = string
+    })
+}
+
+variable "private2_subnet" {
+    type = object({
+      cidr = string
+      az = string
+    })
+}
+
 
 
 variable "instance_types_list" {

@@ -2,7 +2,8 @@
 
 **/.terraform/*
 **/*.pem
-
+coomands
+notes.sh
 # Exclude specific file
 terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/5.0.1/windows_amd64/terraform-provider-aws_v5.0.1_x5.exe
 

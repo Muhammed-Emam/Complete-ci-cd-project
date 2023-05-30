@@ -15,5 +15,48 @@ Make sure to configure the endpoint_public_access setting according to your desi
 
 
 
+kubectl logs -f -n kube-system -l app.kubernetes.io/name=aws-load-balancer-controller
+By running this command, you will be able to view the real-time logs of the pods that match the specified label selector. The -f flag stands for "follow" and allows you to continuously stream the logs as they are updated.
+
+This command is helpful for troubleshooting and monitoring the logs of the AWS Load Balancer Controller pods in the kube-system namespace.
+
+
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
+
+
+
+
 
 ...
