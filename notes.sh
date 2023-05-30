@@ -26,3 +26,9 @@ resource "aws_key_pair" "generated_key" {
   }
 }
 
+
+
+
+$ git reflog
+$ git reset 07fd8e9
+$ git checkout 07fd8e9 -- coomands notes.sh
