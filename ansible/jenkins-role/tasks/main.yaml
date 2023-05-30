@@ -1,0 +1,5 @@
+- name: installing docker
+  include_tasks: docker.yaml
+
+- name: k8s deployment
+  include_tasks: docker.yaml

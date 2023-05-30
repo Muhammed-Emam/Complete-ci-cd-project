@@ -1,0 +1,35 @@
+    - name: apt-update
+      apt:
+        update_cache: yes
+
+    # - name: install pre-packages
+    #   package:
+    #     name:
+    #       - apt-transport-https
+    #       - ca-certificates
+    #       - curl
+    #       - software-properties-common
+    #     state: present
+
+    - name: Execute the command in remote shell
+      ansible.builtin.shell: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+    - name: Add specified repository into sources list
+      ansible.builtin.apt_repository:
+        repo: deb https://download.docker.com/linux/ubuntu focal stable
+        state: present
+
+    - name: install-docker-packages
+      package:
+        name:
+          - docker-ce
+          - docker-ce-cli
+        state: present
+
+    - name: Add user to group
+      user:
+        name: ubuntu
+        groups: docker
+        append: yes
+
+
