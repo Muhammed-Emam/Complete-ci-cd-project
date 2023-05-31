@@ -1,11 +1,3 @@
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-48-22.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-49-35.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-50-12.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-23.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png
-    
-
 # Full CI/CD Project
 
 
@@ -47,19 +39,19 @@
 ### Deploy Jenkins using Ansible: Automate the installation and configuration of Jenkins, a continuous integration and delivery tool, using Ansible.
     ◦ kubectl logs jenkins-deployment-2539456353-j00w5 (pod's name) --namespace=devops-tools
         this will display jenkins's password 
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png
+    <!-- file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-48-22.png
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-49-35.png
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-50-12.png
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-23.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png
+    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png -->
     
 ### Configure Jenkins to use the bastion host as a slave: Set up Jenkins to utilize the bastion host as a remote slave for distributed builds and deployments.
    
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-55-55.png
+    <!-- file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-55-55.png -->
     
 
 ### Create a Jenkins pipeline: Define a pipeline in Jenkins that includes stages for building the Docker image, pushing it to a Docker Hub repository, and deploying the web app in a Kubernetes cluster using the Docker image.
    
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-23.png
+    <!-- file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png
+    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-23.png -->
