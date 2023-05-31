@@ -39,7 +39,7 @@
 ### Deploy Jenkins using Ansible: Automate the installation and configuration of Jenkins, a continuous integration and delivery tool, using Ansible.
     ◦ kubectl logs jenkins-deployment-2539456353-j00w5 (pod's name) --namespace=devops-tools
         this will display jenkins's password 
-    <img src="file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png" alt="Alt text" title="Optional title">
+    <img src="/home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png" alt="Alt text" title="Optional title">
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-48-22.png
     file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-49-35.pn
