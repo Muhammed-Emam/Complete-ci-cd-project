@@ -41,12 +41,12 @@
         this will display jenkins's password 
     ![Alt text](/home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png)
     <img src="/home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png" alt="Alt text" title="Optional title">
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-48-22.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-49-35.pn
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-50-12.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-23.png
-    file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png
+file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-33-31.png
+file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-48-22.png
+file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-49-35.pn
+file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-50-12.png
+file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-23.png
+file:///home/emam/Pictures/Screenshots/Screenshot%20from%202023-06-01%2001-52-58.png
     
 ### Configure Jenkins to use the bastion host as a slave: Set up Jenkins to utilize the bastion host as a remote slave for distributed builds and deployments.
    
