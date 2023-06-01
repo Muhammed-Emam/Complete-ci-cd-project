@@ -1,6 +1,5 @@
 # Full CI/CD Project
 
- /home/emam/iti/complete-ci-cd/app/screenshots/Screenshot from 2023-06-01 00-49-14.png
     
 ## Tools
     • Users can create a project fundraising campaign, which includes the following information:
