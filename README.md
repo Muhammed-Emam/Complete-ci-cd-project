@@ -50,18 +50,17 @@
 
 
     ◦ Create a Jenkins pipeline: Define a pipeline in Jenkins that includes stages for building the Docker image, pushing it to a Docker Hub repository, and deploying the web app in a Kubernetes cluster using the Docker image.
-    ![Screenshot from 2023-06-01 01-50-12](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/ed2a8c76-dee9-441f-baf7-cdbc67a1bbcb)
-            ![Screenshot from 2023-06-01 01-52-23](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/7012c2cf-86c9-4842-a9e6-b09bb8bd0046)
-            ![Screenshot from 2023-06-01 01-52-58](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/dbfb790b-8658-44a4-8c1a-7fb5d8d58b1f)
-            ![Screenshot from 2023-06-01 00-49-14](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/3282a44a-b2d1-4518-bd11-7334a48381ef)
 
-    ![Screenshot from 2023-06-01 00-50-14](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/266ac439-4923-4faa-9198-37d253edd59e)
-
-            ![Screenshot from 2023-06-01 00-51-07](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/d9b0dad8-c2a5-44ff-a881-1ab95801e3c4)
-            ![Screenshot from 2023-06-01 00-51-51](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/a47a97cf-1f51-419b-bbcf-c687e3f9d072)
-            ![Screenshot from 2023-06-01 00-52-10](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/84f5ffc9-f6d9-42f8-a10d-389bf10b1134)
+=
             
-            tha
+            
 
+![Screenshot from 2023-06-01 00-49-14](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/a3c70e04-6f1c-40f3-a418-9b601a397f08)
+![Screenshot from 2023-06-01 00-50-14](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/62ace282-c13f-408e-9951-83fac6c5aef7)
+![Screenshot from 2023-06-01 00-51-07](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/6f4c135c-2775-4c3a-81fe-600046cafc67)
+![Screenshot from 2023-06-01 00-51-15](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/7bd88c9c-a414-49c2-baa8-4bbeb7e728a4)
+![Screenshot from 2023-06-01 00-51-20](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/1793af51-dbdc-4e12-a2e5-0a1e3157e24a)
+![Screenshot from 2023-06-01 00-51-51](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/0a50386d-e7f3-4fac-b1e0-d7b79cb7f1d0)
+![Screenshot from 2023-06-01 00-52-10](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/dbd1cfb6-deeb-4fa0-b7e9-162174e81f60)
 
 
