@@ -1,4 +1,6 @@
 # Full CI/CD Project
+![hqdefault](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/5108b8fa-21ef-4b93-8b85-9439441cc787)
+![image](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/43ea424a-4eb4-444d-9d41-45534581c8f3)
 
     
 ## Tools
