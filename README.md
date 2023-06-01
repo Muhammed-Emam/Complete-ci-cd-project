@@ -50,8 +50,8 @@
 
     ◦ Create a Jenkins pipeline: Define a pipeline in Jenkins that includes stages for building the Docker image, pushing it to a Docker Hub repository, and deploying the web app in a Kubernetes cluster using the Docker image.
     
-    
-![Uploading Screenshot from 2023-06-01 01-50-12.png…]()
+    ![Screenshot from 2023-06-01 01-50-12](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/bfd4eaa3-35f3-4c30-846b-5252d9c60e2d)
+
 
 ![Screenshot from 2023-06-01 01-52-23](https://github.com/Muhammed-Emam/Complete-ci-cd-project/assets/118661263/91de7ca8-f269-42fa-86cd-5fa800e0233a)
 
