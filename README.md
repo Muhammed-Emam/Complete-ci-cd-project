@@ -26,20 +26,20 @@
 
 ## Steps:
 
-### Create a simple web app: Develop a basic web application that will serve as the foundation for the project.
-### Create a Dockerfile for the web app: Define the necessary instructions and dependencies to build a Docker image of the web app.
+    ◦ Create a simple web app: Develop a basic web application that will serve as the foundation for the project.
+    ◦ Create a Dockerfile for the web app: Define the necessary instructions and dependencies to build a Docker  image of the web app.
 
-### Provision infrastructure using Terraform: Automate the creation of infrastructure resources, such as virtual machines or containers, using Terraform.
-   ◦ python3 infraUP.py
+    ◦ Provision infrastructure using Terraform: Automate the creation of infrastructure resources, such as virtual machines or containers, using Terraform.
+        ◦ python3 infraUP.py
 
-### Configure a bastion host using Ansible: Use Ansible to set up and configure a secure bastion host, which acts as a gateway for accessing other hosts in the network.
+    ◦ Configure a bastion host using Ansible: Use Ansible to set up and configure a secure bastion host, which acts as a gateway for accessing other hosts in the network.
     
 
 
-### Deploy Jenkins using Ansible: Automate the installation and configuration of Jenkins, a continuous integration and delivery tool, using Ansible.
-    ◦ kubectl logs jenkins-deployment-2539456353-j00w5 (pod's name) --namespace=devops-tools
-        this will display jenkins's password 
-### Configure Jenkins to use the bastion host as a slave: Set up Jenkins to utilize the bastion host as a remote slave for distributed builds and deployments.
+    ◦ Deploy Jenkins using Ansible: Automate the installation and configuration of Jenkins, a continuous integration and delivery tool, using Ansible.
+        ◦ kubectl logs jenkins-deployment-2539456353-j00w5 (pod's name) --namespace=devops-tools
+            this will display jenkins's password 
+    ◦ Configure Jenkins to use the bastion host as a slave: Set up Jenkins to utilize the bastion host as a remote slave for distributed builds and deployments.
    
     
 
