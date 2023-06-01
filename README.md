@@ -43,5 +43,5 @@
    
     
 
-### Create a Jenkins pipeline: Define a pipeline in Jenkins that includes stages for building the Docker image, pushing it to a Docker Hub repository, and deploying the web app in a Kubernetes cluster using the Docker image.
+    ◦ Create a Jenkins pipeline: Define a pipeline in Jenkins that includes stages for building the Docker image, pushing it to a Docker Hub repository, and deploying the web app in a Kubernetes cluster using the Docker image.
    
